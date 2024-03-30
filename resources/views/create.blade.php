@@ -29,19 +29,19 @@
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>Tarea:</strong>
-                    <input type="text" name="title" class="form-control" placeholder="Tarea" >
+                    <input type="text" name="title" class="form-control" placeholder="Tarea" maxlength="30">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>Descripción:</strong>
-                    <textarea class="form-control" style="height:150px" name="description" placeholder="Descripción..."></textarea>
+                    <textarea class="form-control" style="height:150px" name="description" placeholder="Descripción..." maxlength="60"></textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 mt-2">
                 <div class="form-group">
                     <strong>Fecha límite:</strong>
-                    <input type="date" name="due_date" class="form-control" id="">
+                    <input type="date" name="due_date" class="form-control" >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 mt-2">

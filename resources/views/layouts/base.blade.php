@@ -10,6 +10,9 @@
     <title>CRUD laravel 10</title>
 </head>
 <body >
+    <nav>
+        
+    </nav>
     <div class="container">
         @yield('content')
     </div>
